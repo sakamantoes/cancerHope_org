@@ -197,55 +197,76 @@ const Home = () => {
       <div className="flex items-center mb-[60px] justify-center flex-col">
         <p className="text-3xl text-green-700 font-bold">Contact</p>
         <form
-          action="https://formsubmit.co/handquarterscancerhope@gmail.com"
+          action="https://usebasin.com/f/5529e87fd7f1"
           method="POST"
-          target="_self"
-          className="flex-col flex sm:w-[500px] w-[360px] p-2 bg-green-50 rounded-2xl shadow-2xl mt-2 gap-3"
+          id="form"
+          className="w-[500px] max-w-md bg-white p-6 rounded-2xl shadow-lg space-y-4"
         >
-          {/* Required hidden fields */}
-          <input type="hidden" name="_captcha" value="false" />
-          <input type="hidden" name="_subject" value="New Mail from C.H.O!!!" />
-          <input type="hidden" name="_template" value="table" />
-          <input
-            type="hidden"
-            name="_next"
-            value="https://cancer-hope-org-help.vercel.app/thankyou"
-          />
+          <div>
+            <label
+              htmlFor="name"
+              className="block mb-1 font-medium text-gray-700"
+            >
+              Name
+            </label>
+            <input
+              type="text"
+              name="name"
+              required
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+            />
+          </div>
 
-          <input
-            type="text"
-            name="name"
-            placeholder="Name..."
-            required
-            className="border border-green-600/50 rounded-md p-2"
-          />
-          <input
-            type="email"
-            name="email"
-            placeholder="Email..."
-            required
-            className="border border-green-600/50 rounded-md p-2"
-          />
-          <input
-            type="tel"
-            name="phone"
-            placeholder="Phone..."
-            required
-            className="border border-green-600/50 rounded-md p-2"
-          />
-          <textarea
-            name="message"
-            cols="30"
-            rows="30"
-            placeholder="Enter Message..."
-            required
-            className="border h-[100px] border-green-600/50 rounded-md p-2"
-          ></textarea>
+          <div>
+            <label
+              htmlFor="email"
+              className="block mb-1 font-medium text-gray-700"
+            >
+              Email
+            </label>
+            <input
+              type="email"
+              name="email"
+              required
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="number"
+              className="block mb-1 font-medium text-gray-700"
+            >
+              Phone Number
+            </label>
+            <input
+              type="tel"
+              name="number"
+              required
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+            />
+          </div>
+
+          <div>
+            <label
+              htmlFor="message"
+              className="block mb-1 font-medium text-gray-700"
+            >
+              Message
+            </label>
+            <textarea
+              name="message"
+              rows="4"
+              required
+              className="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-300"
+            ></textarea>
+          </div>
+
           <button
             type="submit"
-            className="bg-green-800 w-[60%] m-auto py-1 text-white font-bold rounded-md"
+            className="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700 transition duration-300"
           >
-            Submit
+            Send Message
           </button>
         </form>
       </div>
