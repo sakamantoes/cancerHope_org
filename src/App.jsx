@@ -8,6 +8,7 @@ import About from "./pages/About";
 import Faq from "./pages/Faq";
 import Footer from "./component/Footer";
 import NotFound from "./pages/NotFound";
+import Thankyou from "./pages/Thankyou";
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="thankyou" element={<Thankyou />} />
           <Route path="/testimonies" element={<Testimonies />} />
           <Route path="/service" element={<Service />} />
           <Route path="/contact" element={<Contact />} />
