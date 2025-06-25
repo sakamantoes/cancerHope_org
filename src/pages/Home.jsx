@@ -209,7 +209,7 @@ const Home = () => {
           <input
             type="hidden"
             name="_next"
-            value="http://localhost:5173/thankyou"
+            value="https://cancer-hope-org-help.vercel.app/thankyou"
           />
 
           <input
