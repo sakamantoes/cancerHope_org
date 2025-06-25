@@ -228,13 +228,30 @@ And I am still standing—stronger than ever.`,
     name: "chris zanny",
     lText: ` Hi, my name is Chris Zanny.
 I’m 10 years old.
-My mom says I’m very brave.
-Last year, I got really sick.
-I used to run around all day, play football with my friends, and ride my bicycle.
-But then, I started getting very tired.....`,
-    text: ` Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim modi alias explicabo officia error corporis voluptas exercitationem aut tempore harum in molestiae a, vero fugit animi ratione pariatur ipsam. Quae
-    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus nihil, iure impedit iusto doloribus placeat eveniet recusandae omnis praesentium ullam quos veritatis. Reprehenderit aut voluptatum consequatur velit enim veniam accusamus.
-    Quasi cumque enim voluptas, totam perferendis quod dignissimos officia perspiciatis rerum asperiores quibusdam quia reiciendis minima alias tempora aperiam sapiente et reprehenderit! Fugiat ipsum molestias culpa cupiditate aperiam! Amet, alias.
-    Ratione labore corrupti quas est magni distinctio minus, necessitatibus alias. Laboriosam cum quod numquam consectetur accusamus in dignissimos, accusantium modi ex illum ad, necessitatibus minus reprehenderit molestias officiis! Neque, officia.`,
+Sure. My name is Chris Zanny, I’m 12 years old, and I’m proud to say that I survived cancer. A few months ago, I was too weak to walk, eat, .....`,
+    text: ` Q: Hi Chris, can you tell us a bit about your journey?
+
+Chris Zanny:
+Sure. My name is Chris Zanny, I’m 12 years old, and I’m proud to say that I survived cancer. A few months ago, I was too weak to walk, eat, or even smile. My parents tried everything they could, but nothing seemed to work — until we found Cancer Hope Organization.
+
+Q: What was your experience like with Cancer Hope Organization (C.H.O)?
+
+Chris:
+Honestly, it changed everything. From the moment we reached out on Telegram, we felt a kind of care we hadn’t felt before. They listened. They understood. And most importantly, they acted. They gave us hope when we had none left. I’m alive today because someone introduced us to C.H.O.
+
+Q: Some people hesitate when they hear there's a fee involved. What would you say to them?
+
+Chris:
+I understand that. My parents were careful too at first. But here's the truth: the small fee C.H.O asks through their Telegram customer care isn’t just a payment — it’s the door to a new life. That fee helps them act quickly, provide direction, and cover parts of the process that would otherwise be impossible. It's not about the money; it's about your chance to live again.
+
+Q: So what’s different about C.H.O compared to other places your family tried?
+
+Chris:
+Everything. C.H.O isn’t just an organization. It’s people who care. They don’t treat you like a number. They don’t give you false promises. They walk with you through the process. And they never rush you. The Telegram team is kind and patient — they’ll explain everything, including the little fee they need to move forward with your case.
+
+Q: What would you say to someone out there reading this who is suffering or watching a loved one suffer from cancer?
+
+Chris:
+I’d say: don’t wait. Don’t let doubt steal your miracle. C.H.O changed my story — and I believe they can change yours too. Just message them on Telegram. The fee is small, but what you’ll gain is bigger than anything: hope, care, and a second chance.`,
   },
 ];
