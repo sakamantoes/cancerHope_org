@@ -78,7 +78,7 @@ const Home = () => {
 
       {/* what about */}
       <div className="bg-green-50 sm:h-[70vh] h-[40vh] sm:px-3 py-4 flex sm:items-center sm:justify-center my-[90px]">
-        <div className="flex justify-center items-center sm:w-full w-[400px] ">
+        <div className="flex justify-center items-center sm:w-full w-[400px] px-2 ">
           {/* about image */}
           <div className="sm:flex rounded-sm overflow-hidden hidden sm:w-1/2 w-[300px] mr-3">
             <img src={asset.diagnosis} alt="" className="w-full" />
@@ -200,7 +200,7 @@ const Home = () => {
           action="https://usebasin.com/f/5529e87fd7f1"
           method="POST"
           id="form"
-          className="w-[500px] max-w-md bg-white p-6 rounded-2xl shadow-lg space-y-4"
+          className="sm:w-[500px] w-[325px] max-w-md bg-white p-6 rounded-2xl shadow-lg space-y-4"
         >
           <div>
             <label

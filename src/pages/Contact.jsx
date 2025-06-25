@@ -7,7 +7,7 @@ const Contact = () => {
             action="https://usebasin.com/f/5529e87fd7f1"
             method="POST"
             id="form"
-            className="w-[500px] max-w-md bg-white p-6 rounded-2xl shadow-lg space-y-4"
+            className="sm:w-[500px] w-[325px] max-w-md bg-white p-6 rounded-2xl shadow-lg space-y-4"
           >
             <h2 className="text-3xl font-semibold text-center text-green-700">
               Contact Us
